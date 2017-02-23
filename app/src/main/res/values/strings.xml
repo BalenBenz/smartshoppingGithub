@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">Smart Shopping</string>
+    <color name="wallpaper1">#F7AD33</color>
+    <color name="wallpaper2">#ffd897</color>
+    <color name="wallpaper3">#CD5360</color>
+    <color name="wallpaper4">#d9b84c</color>
+    <color name="wallpaper5">#9cda9a</color>
+    <color name="wallpaper6">#ff4c55</color>
+    <color name="wallpaper7">#9919b4</color>
+    <color name="wallpaper8">#31e6ec</color>
+    <color name="wallpaper9">#a2ff65</color>
+    <color name="wallpaper10">#ff7a4d</color>
+
+    <color name="bgbtn1">#2C3133</color>
+
+    <color name="textcolor1">#FFFFFF</color>
+    <color name="textcolor2">#000000</color>
+    <color name="textcolor3">#000000</color>
+    <color name="textcolor4">#000000</color>
+    <color name="textcolor5">#000000</color>
+    <color name="textcolor6">#000000</color>
+    <color name="textcolor7">#000000</color>
+    <color name="textcolor8">#FFFFFF</color>
+    <color name="textcolor9">#FFFFFF</color>
+    <color name="textcolor10">#FFFFFF</color>
+    <color name="textcolor11">#FFFFFF</color>
+
+    <color name="bgEditText1">#FFE4E1</color>
+    <color name="bgEditText2">#FFE4E1</color>
+    <color name="bgEditText3">#ffd8d4</color>
+    <color name="bgEditText4">#ffd8d4</color>
+
+    <color name="bgTableRow1">#52ca9e</color>
+    <color name="bgTableRow2">#60e1b2</color>
+    <color name="bgTableRow3">#d5fff0</color>
+    <color name="bgTableRow4">#c4f2e1</color>
+</resources>
