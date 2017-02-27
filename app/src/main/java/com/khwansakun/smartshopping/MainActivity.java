@@ -15,11 +15,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        
-        //ประกาศตัวแปรประเภท TextView
-        TextView textView;
-        //กำหนดค่าให้ตัสแปร = id app_text
-        textView = (TextView) findViewById(R.id.app_text);
     }
     public void OnClickStart (View view){
         Button btn_Start = (Button)findViewById(R.id.button1);
