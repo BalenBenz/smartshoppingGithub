@@ -3,9 +3,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/wallpaper5"
+    android:background="@drawable/wallpaperapp05"
     >
-
 
     <TextView
         android:text="Page5"
@@ -16,20 +15,6 @@
         android:layout_marginTop="127dp"
         android:id="@+id/textView"
         android:textSize="24sp"
-        />
-
-    <Button
-        android:text="ย้อนกลับ"
-        android:onClick="OnClickReturn"
-        android:id="@+id/button10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginLeft="12dp"
-        android:layout_marginStart="12dp"
         />
 
     <Button
@@ -45,5 +30,17 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         />
+
+    <Button
+        android:text="ย้อนกลับ"
+        android:onClick="OnClickReturn"
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
 </RelativeLayout>

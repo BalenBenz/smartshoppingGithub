@@ -2,9 +2,10 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/wallpaper4"
+    android:background="@drawable/wallpaperapp04"
     android:orientation="vertical">
 
+    <!--
     <TextView
         android:id="@+id/textView8"
         android:layout_width="wrap_content"
@@ -14,39 +15,31 @@
         android:text="ให้ค่าน้ำหนักความสำคัญของเกณฑ์"
         android:textColor="@color/textcolor11"
         android:textSize="24sp" />
+-->
 
-
-    <ListView
-        android:id="@+id/listView1"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true" />
 
     <Button
         android:id="@+id/button8"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginLeft="13dp"
+        android:layout_marginStart="13dp"
+        android:onClick="OnClickReturn"
+        android:text="ย้อนกลับ"
         android:layout_alignParentBottom="true"
         android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
-        android:layout_marginBottom="15dp"
-        android:layout_marginLeft="12dp"
-        android:layout_marginStart="12dp"
-        android:onClick="OnClickReturn"
-        android:text="ย้อนกลับ" />
+        android:layout_alignParentStart="true" />
 
     <Button
         android:id="@+id/button9"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBaseline="@+id/button8"
-        android:layout_alignBottom="@+id/button8"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_marginEnd="18dp"
-        android:layout_marginRight="18dp"
+        android:layout_marginEnd="13dp"
+        android:layout_marginRight="13dp"
         android:onClick="OnClickNext"
-        android:text="ไปต่อ" />
+        android:text="ไปต่อ"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
 
 </RelativeLayout>

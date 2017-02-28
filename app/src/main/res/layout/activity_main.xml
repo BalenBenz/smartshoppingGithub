@@ -10,7 +10,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.khwansakun.smartshopping.MainActivity"
-    android:background="@drawable/wallpaperapp09">
+    android:background="@drawable/wallpaperapp01">
 
 
     <Button
@@ -21,8 +21,8 @@
         android:onClick="OnClickStart"
         android:background="@color/bgbtn1"
         android:textColor="@color/textcolor1"
-        android:layout_marginBottom="63dp"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true" />
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="225dp" />
 
 </RelativeLayout>
