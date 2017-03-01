@@ -22,7 +22,7 @@ public class Page7 extends AppCompatActivity {
 
     public void OnClickNext (View view){
         Button btn_Start = (Button)findViewById(R.id.button15);
-        Intent intent = new Intent(Page7.this,Page8.class);
+        Intent intent = new Intent(Page7.this,Page9.class);
         startActivity(intent);
     }
 

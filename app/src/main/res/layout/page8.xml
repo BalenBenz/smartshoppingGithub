@@ -3,10 +3,10 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@color/wallpaper8"
+    android:background="@drawable/wallpaperapp08"
     >
 
-
+<!--
     <TextView
         android:text="Page8"
         android:layout_width="wrap_content"
@@ -17,6 +17,19 @@
         android:id="@+id/textView"
         android:textSize="24sp"
         />
+-->
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="6"
+        android:background="@color/bgEditText1"
+        android:layout_below="@+id/editText1"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignStart="@+id/editText1"
+        android:layout_marginTop="15dp" />
 
     <Button
         android:text="ย้อนกลับ"
@@ -24,25 +37,34 @@
         android:id="@+id/button16"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginBottom="15dp"
-        android:layout_alignParentBottom="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true"
         android:layout_marginLeft="12dp"
         android:layout_marginStart="12dp"
-        />
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
 
-    <Button
-        android:text="ไปต่อ"
-        android:onClick="OnClickNext"
-        android:id="@+id/button17"
+    <EditText
+        android:id="@+id/editText1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_alignBaseline="@+id/button16"
-        android:layout_alignBottom="@+id/button16"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentEnd="true" />
+        android:inputType="textPersonName"
+        android:ems="6"
+        android:background="@color/bgEditText1"
+        android:layout_marginLeft="71dp"
+        android:layout_marginStart="71dp"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/button16"
+        android:layout_toEndOf="@+id/button16" />
+
+    <Button
+        android:text="้อัปโหลดรูปภาพ"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/button17"
+        android:layout_marginTop="51dp"
+        android:layout_below="@+id/editText1"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_alignStart="@+id/editText1" />
+
 
 </RelativeLayout>

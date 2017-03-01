@@ -20,10 +20,5 @@ public class Page8 extends AppCompatActivity {
         startActivity(intent);
     }
 
-    public void OnClickNext (View view){
-        Button btn_Start = (Button)findViewById(R.id.button17);
-        Intent intent = new Intent(Page8.this,Page9.class);
-        startActivity(intent);
-    }
 
 }
